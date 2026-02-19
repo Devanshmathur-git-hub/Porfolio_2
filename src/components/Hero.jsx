@@ -83,7 +83,7 @@ const Hero = () => {
         <div className="bg-black flex flex-col items-center justify-center px-6 md:px-12 lg:px-16 py-20 md:py-0 relative">
           {/* Portrait Image - Overlapping */}
           <div className="relative w-full h-full flex items-center justify-center">
-            <div className="w-64 h-80 md:w-80 md:h-96 lg:w-96 lg:h-[28rem] overflow-hidden relative -ml-16 md:-ml-24">
+            <div className="w-80 h-96 md:w-96 md:h-[28.8rem] lg:w-[28.8rem] lg:h-[33.6rem] overflow-hidden relative -ml-16 md:-ml-24">
               <img 
                 src="/profile-image.png" 
                 alt="Devansh Mathur" 

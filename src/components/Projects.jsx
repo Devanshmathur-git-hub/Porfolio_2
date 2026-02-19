@@ -56,6 +56,46 @@ const Projects = () => {
       image: '/project-images/profile-app.png',
       codeUrl: 'https://github.com/Devanshmathur-git-hub/profile_app',
     },
+    {
+      title: 'New User Management App',
+      description:
+        'Backend application to manage user data with RESTful APIs for registration, retrieval, updating, and deletion using a structured MongoDB schema.',
+      technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST API', 'Backend Development'],
+      image: '/project-images/new-user-management.png',
+      codeUrl: 'https://github.com/Devanshmathur-git-hub/new-user-management-app',
+    },
+    {
+      title: 'Photo Sharing Gallery',
+      description:
+        'Full-stack photo gallery to upload and manage images with backend APIs for file upload, retrieval, and metadata storage.',
+      technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST API', 'File Upload'],
+      image: '/project-images/photo-gallery.png',
+      codeUrl: 'https://github.com/Devanshmathur-git-hub/Photo_Sharing-Gallery',
+    },
+    {
+      title: 'Portfolio (Old Version)',
+      description:
+        'Personal portfolio website to showcase projects and skills with a responsive layout and structured sections for work and contact info.',
+      technologies: ['HTML', 'CSS', 'JavaScript', 'Frontend Development'],
+      image: '/project-images/portfolio-old.png',
+      codeUrl: 'https://github.com/Devanshmathur-git-hub/Porfolio-',
+    },
+    {
+      title: 'Portfolio_2 (New Version)',
+      description:
+        'Modern portfolio website focused on full-stack projects with improved performance, responsive UI, and better overall user experience.',
+      technologies: ['React.js', 'Tailwind CSS', 'Frontend Development'],
+      image: '/project-images/portfolio-2.png',
+      codeUrl: 'https://github.com/Devanshmathur-git-hub/Porfolio_2',
+    },
+    {
+      title: 'Comment Model (Nested Comment System)',
+      description:
+        'Backend comment and review system supporting nested threads with REST APIs and MongoDB schema for parent-child relationships.',
+      technologies: ['Node.js', 'Express.js', 'MongoDB', 'REST API', 'Database Design'],
+      image: '/project-images/comment-model.png',
+      codeUrl: 'https://github.com/Devanshmathur-git-hub/Comment_model',
+    },
   ];
 
   return (
@@ -210,6 +250,18 @@ const Projects = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        {/* More projects CTA */}
+        <div className="mt-16 flex justify-center">
+          <a
+            href="https://github.com/Devanshmathur-git-hub?tab=repositories"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center px-8 py-3 bg-black text-white text-sm font-semibold border-2 border-black hover:bg-gray-900 transition-colors"
+          >
+            For more projects, visit my GitHub
+          </a>
         </div>
       </div>
     </section>
